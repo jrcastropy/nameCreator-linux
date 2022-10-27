@@ -20,42 +20,42 @@ def Line(obj):
 
 ## read files
 # american (USA)
-with open(curDir + "\\names\\american.txt", encoding="utf-8") as mytxt:
+with open(os.path.join(curDir, "name", "american.txt"), encoding="utf-8") as mytxt:
     for line in mytxt:
         LastAmerican.append(Line(line))
 
 # russian (Russian Federation)
-with open(curDir + "\\names\\russian.txt", encoding="utf-8") as mytxt:
+with open(os.path.join(curDir, "name", "russian.txt"), encoding="utf-8") as mytxt:
     for line in mytxt:
         LastRussian.append(Line(line))
 
 # spanish (Spain,Mexico, other Spanish speaking nations) (To be divided)
-with open(curDir + "\\names\\spanish.txt", encoding="utf-8") as mytxt:
+with open(os.path.join(curDir, "name", "spanish.txt"), encoding="utf-8") as mytxt:
     for line in mytxt:
         LastSpanish.append(Line(line))
 
 #italian
-with open(curDir + "\\names\\italian.txt", encoding="utf-8") as mytxt:
+with open(os.path.join(curDir, "name", "italian.txt"), encoding="utf-8") as mytxt:
     for line in mytxt:
         LastItalian.append(Line(line))
 
 #german
-with open(curDir + "\\names\\german.txt", encoding="utf-8") as mytxt:
+with open(os.path.join(curDir, "name", "german.txt"), encoding="utf-8") as mytxt:
     for line in mytxt:
         LastGerman.append(Line(line))
 
 #french
-with open(curDir + "\\names\\french.txt", encoding="utf-8") as mytxt:
+with open(os.path.join(curDir, "name", "french.txt"), encoding="utf-8") as mytxt:
     for line in mytxt:
         LastFrench.append(Line(line))
 
 #swedish
-with open(curDir + "\\names\\swedish.txt", encoding="utf-8") as mytxt:
+with open(os.path.join(curDir, "name", "swedish.txt"), encoding="utf-8") as mytxt:
     for line in mytxt:
         LastSwedish.append(Line(line))
 
 #finnish
-with open(curDir + "\\names\\finnish.txt", encoding="utf-8") as mytxt:
+with open(os.path.join(curDir, "name", "finnish.txt"), encoding="utf-8") as mytxt:
     for line in mytxt:
         LastFinnish.append(Line(line))
 
